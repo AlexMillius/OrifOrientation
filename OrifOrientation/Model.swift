@@ -14,12 +14,17 @@ struct Assuré {
     var mGymnasiale:Bool = false
     var niveauProfInit:NivProf = NivProf.aucun
     var niveauProfAutorise:NivProf = NivProf.aucun
+    var duréeMaxFormation:Int = 3 //En années
 }
 
 struct Profession {
     let nom:String
-    let duréeFormation:Int //En année
     let lien:NSURL
+    let ageMinimum:Int
+    let mptiNécessaire:Bool
+    let mGymnasialeNécessaire:Bool
+    let duréeFormation:Int //En année
+    let niveauFormationNécessaire:NivProf?
     let expérienceNécessaire:Int? //En année
 }
 

@@ -23,13 +23,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entrez vos données personnelles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POW-yh-bqQ">
-                                <rect key="frame" x="34.5" y="28" width="252.5" height="20.5"/>
+                                <rect key="frame" x="34" y="28" width="253" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="âge / niveau actuel / niveau autorisé" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uno-pt-vv2">
-                                <rect key="frame" x="23" y="155.5" width="274" height="20.5"/>
+                                <rect key="frame" x="23" y="156" width="274" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -46,13 +46,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maturité technique" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lG7-S7-lgC">
-                                <rect key="frame" x="31" y="68.5" width="160" height="21"/>
+                                <rect key="frame" x="31" y="69" width="160" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maturité gymnasiale" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tlD-dL-lzv">
-                                <rect key="frame" x="31" y="109.5" width="160" height="21"/>
+                                <rect key="frame" x="31" y="110" width="160" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="Hf6-vc-gyh"/>
                                 </constraints>
@@ -61,32 +61,59 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5n0-s8-tbf">
-                                <rect key="frame" x="199" y="63.5" width="51" height="31"/>
+                                <rect key="frame" x="199" y="64" width="51" height="31"/>
                                 <connections>
                                     <action selector="mptiToggled:" destination="BYZ-38-t0r" eventType="valueChanged" id="j6o-Lh-FTX"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rnf-g2-gIe">
-                                <rect key="frame" x="199" y="104.5" width="51" height="31"/>
+                                <rect key="frame" x="199" y="105" width="51" height="31"/>
                                 <connections>
                                     <action selector="myGymnasialeToggled:" destination="BYZ-38-t0r" eventType="valueChanged" id="InD-XG-0Yq"/>
                                 </connections>
                             </switch>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3eU-Sd-JBe">
-                                <rect key="frame" x="0.0" y="196" width="320" height="216"/>
+                                <rect key="frame" x="0.0" y="197" width="320" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="r4O-Ks-IY6"/>
+                                </constraints>
                             </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Années max. formation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Mv-Sw-Kim">
+                                <rect key="frame" x="16" y="377" width="177" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5SA-Lp-1LR">
+                                <rect key="frame" x="297" y="377" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minimumValue="1" maximumValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="Xva-3b-0aZ">
+                                <rect key="frame" x="198" y="373" width="94" height="29"/>
+                                <connections>
+                                    <action selector="annéesMaxStepperChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="zKZ-qu-Fne"/>
+                                </connections>
+                            </stepper>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="5SA-Lp-1LR" firstAttribute="leading" secondItem="Xva-3b-0aZ" secondAttribute="trailing" constant="5" id="1se-aV-Rpe"/>
                             <constraint firstItem="5n0-s8-tbf" firstAttribute="leading" secondItem="lG7-S7-lgC" secondAttribute="trailing" constant="8" id="5f7-XJ-7ir"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Npq-Sq-sPO" secondAttribute="bottom" constant="20" id="9Rv-ws-1Sc"/>
+                            <constraint firstItem="Xva-3b-0aZ" firstAttribute="leading" secondItem="8Mv-Sw-Kim" secondAttribute="trailing" constant="5" id="9Zr-Yc-eD2"/>
                             <constraint firstItem="Rnf-g2-gIe" firstAttribute="centerY" secondItem="tlD-dL-lzv" secondAttribute="centerY" id="A6n-2X-TzF"/>
                             <constraint firstItem="POW-yh-bqQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AKr-2x-ycf"/>
+                            <constraint firstItem="8Mv-Sw-Kim" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ANQ-sC-iEA"/>
                             <constraint firstItem="lG7-S7-lgC" firstAttribute="top" secondItem="POW-yh-bqQ" secondAttribute="bottom" constant="20" id="Aya-MM-Mdb"/>
+                            <constraint firstItem="8Mv-Sw-Kim" firstAttribute="top" secondItem="3eU-Sd-JBe" secondAttribute="bottom" constant="20" id="Gzb-2R-VxJ"/>
                             <constraint firstItem="tlD-dL-lzv" firstAttribute="width" secondItem="lG7-S7-lgC" secondAttribute="width" id="OcC-PH-N6b"/>
                             <constraint firstItem="POW-yh-bqQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Of2-3h-Yd3"/>
                             <constraint firstItem="tlD-dL-lzv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="P02-DJ-4rU"/>
+                            <constraint firstItem="5SA-Lp-1LR" firstAttribute="centerY" secondItem="8Mv-Sw-Kim" secondAttribute="centerY" id="WpG-7c-6u0"/>
                             <constraint firstItem="Uno-pt-vv2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bte-w2-rBx"/>
+                            <constraint firstItem="Xva-3b-0aZ" firstAttribute="centerY" secondItem="8Mv-Sw-Kim" secondAttribute="centerY" id="dWx-JZ-hMW"/>
                             <constraint firstItem="tlD-dL-lzv" firstAttribute="leading" secondItem="lG7-S7-lgC" secondAttribute="leading" id="gcL-pn-1cr"/>
                             <constraint firstItem="3eU-Sd-JBe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iv0-LH-ZHr"/>
                             <constraint firstItem="Uno-pt-vv2" firstAttribute="top" secondItem="Rnf-g2-gIe" secondAttribute="bottom" constant="20" id="l7e-LN-F7r"/>
@@ -98,6 +125,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="annéesMaxFormationLbl" destination="5SA-Lp-1LR" id="r1q-gJ-uB4"/>
+                        <outlet property="annéesMaxFormationStepper" destination="Xva-3b-0aZ" id="Pmv-kC-GCh"/>
                         <outlet property="mpGymnasialeSwitch" destination="Rnf-g2-gIe" id="RZt-Tr-rzz"/>
                         <outlet property="mptiSwitch" destination="5n0-s8-tbf" id="b53-Po-2sr"/>
                         <outlet property="startSearchBtn" destination="Npq-Sq-sPO" id="2MK-6i-aLn"/>
@@ -179,7 +208,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Leb-Ei-q2x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="729" y="33"/>
+            <point key="canvasLocation" x="984" y="33"/>
         </scene>
     </scenes>
 </document>
