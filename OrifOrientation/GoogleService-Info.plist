@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>347016126876-sh83hna97mih21k02hojj47q6lcqrofi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.347016126876-sh83hna97mih21k02hojj47q6lcqrofi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCWTGzKlTx8WJRMW8SuINKztICsSTM2kFg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>347016126876</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>TumTum.OrifOrientation</string>
+	<key>PROJECT_ID</key>
+	<string>oriforientation</string>
+	<key>STORAGE_BUCKET</key>
+	<string>oriforientation.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:347016126876:ios:c649aa20d8c2c82c</string>
+	<key>DATABASE_URL</key>
+	<string>https://oriforientation.firebaseio.com</string>
+</dict>
+</plist>
