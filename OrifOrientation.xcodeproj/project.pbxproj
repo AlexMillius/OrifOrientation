@@ -10,8 +10,9 @@
 		83B4E6784AFF0B0C13408234 /* Pods_OrifOrientation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904AE3F3A19F274385342849 /* Pods_OrifOrientation.framework */; };
 		D92D46701E03CB5A0082CD84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D92D466F1E03CB5A0082CD84 /* GoogleService-Info.plist */; };
 		D92D46721E03D5A50082CD84 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D46711E03D5A50082CD84 /* Model.swift */; };
+		D92D46741E03E2C60082CD84 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D46731E03E2C60082CD84 /* DataViewController.swift */; };
 		D9711AA91E03C95D00B06549 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9711AA81E03C95D00B06549 /* AppDelegate.swift */; };
-		D9711AAB1E03C95D00B06549 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9711AAA1E03C95D00B06549 /* ViewController.swift */; };
+		D9711AAB1E03C95D00B06549 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9711AAA1E03C95D00B06549 /* SettingsViewController.swift */; };
 		D9711AAE1E03C95D00B06549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9711AAC1E03C95D00B06549 /* Main.storyboard */; };
 		D9711AB01E03C95D00B06549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9711AAF1E03C95D00B06549 /* Assets.xcassets */; };
 		D9711AB31E03C95D00B06549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9711AB11E03C95D00B06549 /* LaunchScreen.storyboard */; };
@@ -23,9 +24,10 @@
 		D25ADF999BE3FE8C0858A22C /* Pods-OrifOrientation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrifOrientation.release.xcconfig"; path = "Pods/Target Support Files/Pods-OrifOrientation/Pods-OrifOrientation.release.xcconfig"; sourceTree = "<group>"; };
 		D92D466F1E03CB5A0082CD84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D92D46711E03D5A50082CD84 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D92D46731E03E2C60082CD84 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		D9711AA51E03C95D00B06549 /* OrifOrientation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrifOrientation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9711AA81E03C95D00B06549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9711AAA1E03C95D00B06549 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9711AAA1E03C95D00B06549 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D9711AAD1E03C95D00B06549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9711AAF1E03C95D00B06549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9711AB21E03C95D00B06549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -83,7 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				D9711AA81E03C95D00B06549 /* AppDelegate.swift */,
-				D9711AAA1E03C95D00B06549 /* ViewController.swift */,
+				D9711AAA1E03C95D00B06549 /* SettingsViewController.swift */,
+				D92D46731E03E2C60082CD84 /* DataViewController.swift */,
 				D92D46711E03D5A50082CD84 /* Model.swift */,
 				D9711AAC1E03C95D00B06549 /* Main.storyboard */,
 				D9711AAF1E03C95D00B06549 /* Assets.xcassets */,
@@ -219,8 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D92D46741E03E2C60082CD84 /* DataViewController.swift in Sources */,
 				D92D46721E03D5A50082CD84 /* Model.swift in Sources */,
-				D9711AAB1E03C95D00B06549 /* ViewController.swift in Sources */,
+				D9711AAB1E03C95D00B06549 /* SettingsViewController.swift in Sources */,
 				D9711AA91E03C95D00B06549 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         //Test de connection à la base de donnée
         var ref: FIRDatabaseReference!
         ref = FIRDatabase.database().reference()
-        ref.child("users").setValue(["username": "test"])
+        ref.child("users").setValue(["username": "testChablabla"])
     }
 
     override func didReceiveMemoryWarning() {

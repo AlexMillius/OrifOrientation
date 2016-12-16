@@ -12,13 +12,13 @@ struct Assuré {
     let age:Int
     let niveauProfInit:NivProf
     let niveauProfAutorise:NivProf
-    let annéeExpDomaine:Int?
 }
 
 struct Profession {
     let nom:String
     let duréeFormation:Int //En année
     let lien:NSURL
+    let expérienceNécessaire:Int? //En année
 }
 
 enum NivProf { 
