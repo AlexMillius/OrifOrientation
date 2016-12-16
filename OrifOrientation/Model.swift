@@ -21,7 +21,7 @@ struct Profession {
     let lien:NSURL
 }
 
-enum NivProf {
+enum NivProf { 
     case aucun
     case afp
     case cfc
