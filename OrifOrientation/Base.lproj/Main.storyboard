@@ -42,7 +42,7 @@
                                 </constraints>
                                 <state key="normal" title="Lancer la recherche"/>
                                 <connections>
-                                    <segue destination="kGy-u6-Nu9" kind="presentation" id="MDt-t4-RlN"/>
+                                    <segue destination="kGy-u6-Nu9" kind="presentation" identifier="dataView" id="MDt-t4-RlN"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maturité technique" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lG7-S7-lgC">
@@ -62,9 +62,15 @@
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5n0-s8-tbf">
                                 <rect key="frame" x="199" y="63.5" width="51" height="31"/>
+                                <connections>
+                                    <action selector="mptiToggled:" destination="BYZ-38-t0r" eventType="valueChanged" id="j6o-Lh-FTX"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rnf-g2-gIe">
                                 <rect key="frame" x="199" y="104.5" width="51" height="31"/>
+                                <connections>
+                                    <action selector="myGymnasialeToggled:" destination="BYZ-38-t0r" eventType="valueChanged" id="InD-XG-0Yq"/>
+                                </connections>
                             </switch>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3eU-Sd-JBe">
                                 <rect key="frame" x="0.0" y="196" width="320" height="216"/>

@@ -9,9 +9,11 @@
 import Foundation
 
 struct Assuré {
-    let age:Int
-    let niveauProfInit:NivProf
-    let niveauProfAutorise:NivProf
+    var age:Int = 10
+    var mpti:Bool = false
+    var mGymnasiale:Bool = false
+    var niveauProfInit:NivProf = NivProf.aucun
+    var niveauProfAutorise:NivProf = NivProf.aucun
 }
 
 struct Profession {

@@ -11,11 +11,13 @@ import UIKit
 class DataViewController: UIViewController {
     
     @IBOutlet weak var professionTblView: UITableView!
+    
+    var userSetting:Assuré = Assuré()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        print(userSetting)
     }
 
     override func didReceiveMemoryWarning() {
