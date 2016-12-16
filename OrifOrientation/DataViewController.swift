@@ -9,6 +9,8 @@
 import UIKit
 
 class DataViewController: UIViewController {
+    
+    @IBOutlet weak var professionTblView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()

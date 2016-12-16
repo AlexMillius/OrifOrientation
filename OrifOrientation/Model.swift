@@ -21,7 +21,7 @@ struct Profession {
     let expérienceNécessaire:Int? //En année
 }
 
-enum NivProf { 
+enum NivProf:String {
     case aucun
     case afp
     case cfc
