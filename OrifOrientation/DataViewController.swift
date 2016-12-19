@@ -2,7 +2,7 @@
 //  DataViewController.swift
 //  OrifOrientation
 //
-//  Created by Mohamed Lee on 16.12.16.
+//  Created by Millius Alex on 16.12.16.
 //  Copyright © 2016 TumTum. All rights reserved.
 //
 
@@ -14,11 +14,13 @@ class DataViewController: UIViewController {
     @IBOutlet weak var professionTblView: UITableView!
     
     var userSetting:Assuré = Assuré()
+    var filteredProfessions = [Profession]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        //print(userSetting)
+        
+        filteredProfessions = []
         loadProfessions(settings: userSetting)
     }
 
@@ -38,6 +40,57 @@ class DataViewController: UIViewController {
         var ref: FIRDatabaseReference!
         
         ref = FIRDatabase.database().reference()
+        
+        func filterFormations(){
+            let allFormations = [sansTitreDeFormations,afps,cfcs,brevets,diplômes,maitrises]
+            
+            var restrictionNiveauFormation = 0
+            
+            //défini sur une échelle de 0 à 5 le niveau de formation de l'user
+            switch userSetting.niveauProfAutorise {
+            case .scolarité: restrictionNiveauFormation = 0
+            case .afp: restrictionNiveauFormation = 1
+            case .cfc: restrictionNiveauFormation = 2
+            case .brevet: restrictionNiveauFormation = 3
+            case .diplôme: restrictionNiveauFormation = 4
+            case .maitrise: restrictionNiveauFormation = 5
+            }
+            
+            var index = 0
+            
+            while index <= restrictionNiveauFormation {
+                for formation in allFormations[index] {
+                    //Check que la durée de la formation soit plus petite ou égale à la durée autorisée
+                    if formation.duréeFormation <= userSetting.duréeMaxFormation {
+                        //Check si le niveau de formation nécessaire est plus petit ou égal au niveau de formation nécessaire
+                        if formation.niveauFormationNécessaire.niv <= userSetting.niveauProfInit.niv {
+                            //Check que l'âge minium de l'user soit plus grand ou égal à l'âge minimum
+                            if formation.ageMinimum <= userSetting.age {
+                                //Check que l'assuré ai la maturité nécesaire
+                                if formation.mptiNécessaire == userSetting.mpti {
+                                    //mpti nécessaire et l'user en a une
+                                    print(formation.nom + " avec mpti")
+                                    filteredProfessions.append(formation)
+                                } else if !formation.mptiNécessaire {
+                                    //mpti non nécessaire
+                                    if formation.mGymnasialeNécessaire == userSetting.mGymnasiale {
+                                        //matu gymnasiale nécessaire et l'user en a une
+                                        print(formation.nom + " avec matu et user l'a")
+                                        filteredProfessions.append(formation)
+                                    } else if !formation.mGymnasialeNécessaire {
+                                        //matu gymnasiale non nécessaire et mpti non nécessaire
+                                        print(formation.nom + " pas de matu et pas de mpti")
+                                        filteredProfessions.append(formation)
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                index += 1
+            }
+            print(filteredProfessions.count)
+        }
         
         func castDataFromFormation( professions:inout [Profession],rawProfessionsData:AnyObject){
             
@@ -61,7 +114,7 @@ class DataViewController: UIViewController {
                                     case "dureeForm": tempProfession.duréeFormation = value as! Int
                                     case "nom": tempProfession.nom = value as! String
                                     case "mpti": tempProfession.mptiNécessaire = value as! Bool
-                                case "nivNecess": tempProfession.niveauFormationNécessaire = NivProf(rawValue: value as! String)
+                                case "nivNecess": tempProfession.niveauFormationNécessaire = NivProf(rawValue: value as! String)!
                                     case "lien": tempProfession.lien = NSURL(fileURLWithPath: value as! String)
                                 default: break
                                 }
@@ -101,7 +154,7 @@ class DataViewController: UIViewController {
                     }
                 }
             }
-            
+            filterFormations()
         }) { (error) in
             print(error.localizedDescription)
         }

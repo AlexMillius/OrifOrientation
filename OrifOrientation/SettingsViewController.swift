@@ -19,7 +19,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var annéesMaxFormationLbl: UILabel!
     
 
-    let pickerData = [["10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65"],[NivProf.aucun.rawValue,NivProf.afp.rawValue,NivProf.cfc.rawValue,NivProf.brevet.rawValue,NivProf.diplôme.rawValue,NivProf.maitrise.rawValue],[NivProf.aucun.rawValue,NivProf.afp.rawValue,NivProf.cfc.rawValue,NivProf.brevet.rawValue,NivProf.diplôme.rawValue,NivProf.maitrise.rawValue]]
+    let pickerData = [["10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65"],[NivProf.scolarité.rawValue,NivProf.afp.rawValue,NivProf.cfc.rawValue,NivProf.brevet.rawValue,NivProf.diplôme.rawValue,NivProf.maitrise.rawValue],[NivProf.scolarité.rawValue,NivProf.afp.rawValue,NivProf.cfc.rawValue,NivProf.brevet.rawValue,NivProf.diplôme.rawValue,NivProf.maitrise.rawValue]]
     
     var userSetting:Assuré = Assuré()
 
@@ -88,15 +88,15 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
     
     var age = Int()
-    var formationInitial:NivProf = NivProf.aucun
-    var formationAutorisée:NivProf = NivProf.aucun
+    var formationInitial:NivProf = NivProf.scolarité
+    var formationAutorisée:NivProf = NivProf.scolarité
     
     func pickerView( _ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         switch component {
         case 0: self.age = row + 10
         case 1:
             switch row {
-            case 0: self.formationInitial = NivProf.aucun
+            case 0: self.formationInitial = NivProf.scolarité
             case 1: self.formationInitial = NivProf.afp
             case 2: self.formationInitial = NivProf.cfc
             case 3: self.formationInitial = NivProf.brevet
@@ -106,7 +106,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             }
         case 2:
             switch row {
-            case 0: self.formationAutorisée = NivProf.aucun
+            case 0: self.formationAutorisée = NivProf.scolarité
             case 1: self.formationAutorisée = NivProf.afp
             case 2: self.formationAutorisée = NivProf.cfc
             case 3: self.formationAutorisée = NivProf.brevet
