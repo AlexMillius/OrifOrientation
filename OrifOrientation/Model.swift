@@ -25,7 +25,7 @@ struct Profession {
     var expérienceNécessaire:Int? = 0 //En année //TODO
     var ageMinimum:Int = 1
     var nom:String = ""
-    var lien:NSURL = NSURL(fileURLWithPath: "")
+    var lien:URL = URL(string: "www.google.com")!
 }
 
 enum NivProf:String {

@@ -12,7 +12,14 @@ import Firebase
 class DataViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var professionTblView: UITableView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var statutLbl: UILabel!
     
+    @IBOutlet weak var cacheView: UIView!
+    @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var retourBtnCacheWebView: UIButton!
+    
+    @IBOutlet weak var activityIndicatorWebView: UIActivityIndicatorView!
     var userSetting:Assuré = Assuré()
     var filteredProfessions = [Profession]()
 
@@ -93,6 +100,8 @@ class DataViewController: UIViewController, UITableViewDelegate, UITableViewData
             DispatchQueue.main.async{
                 self.professionTblView.reloadData()
             }
+            activityIndicator.isHidden = true
+            statutLbl.text = "\(filteredProfessions.count) professions trouvées"
         }
         
         func castDataFromFormation( professions:inout [Profession],rawProfessionsData:AnyObject){
@@ -118,7 +127,7 @@ class DataViewController: UIViewController, UITableViewDelegate, UITableViewData
                                     case "nom": tempProfession.nom = value as! String
                                     case "mpti": tempProfession.mptiNécessaire = value as! Bool
                                 case "nivNecess": tempProfession.niveauFormationNécessaire = NivProf(rawValue: value as! String)!
-                                    case "lien": tempProfession.lien = NSURL(fileURLWithPath: value as! String)
+                                    case "lien": tempProfession.lien = URL(string: value as! String)!
                                 default: break
                                 }
                             }
@@ -177,8 +186,22 @@ class DataViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         // Return the cell
         return cell
-
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        cacheView.isHidden = false
+        let url = filteredProfessions[indexPath.row].lien
+        webView.loadRequest(URLRequest(url: url))
+        
+        
+        /*let url = URL(string: "https://facebook.com")!
+        webView.loadRequest(URLRequest(url: url))*/
+    }
+    
+    @IBAction func retourCacheViewTapped(_ sender: Any) {
+        cacheView.isHidden = true
+    }
+    
 
     /*
     // MARK: - Navigation
