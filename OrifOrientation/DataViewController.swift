@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-class DataViewController: UIViewController {
+class DataViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var professionTblView: UITableView!
     
@@ -89,7 +89,10 @@ class DataViewController: UIViewController {
                 }
                 index += 1
             }
-            print(filteredProfessions.count)
+            //Recharge la tableView
+            DispatchQueue.main.async{
+                self.professionTblView.reloadData()
+            }
         }
         
         func castDataFromFormation( professions:inout [Profession],rawProfessionsData:AnyObject){
@@ -158,6 +161,23 @@ class DataViewController: UIViewController {
         }) { (error) in
             print(error.localizedDescription)
         }
+    }
+    
+    //MARK: TableView Delegate et datasource
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return filteredProfessions.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // Try to get a cell to reuse
+        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "basicCell")! as UITableViewCell
+        
+        // Set cell properties
+        cell.textLabel?.text = filteredProfessions[indexPath.row].nom
+        
+        // Return the cell
+        return cell
+
     }
 
     /*
