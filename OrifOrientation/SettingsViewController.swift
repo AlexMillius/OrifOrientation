@@ -30,7 +30,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         //Test de connection à la base de donnée
         /*var ref: FIRDatabaseReference!
         ref = FIRDatabase.database().reference()
-        ref.child("users").setValue(["username": "testChablabla"])*/
+        ref.child("professions").child("testChild").setValue(["username": "testChablabla"])*/
         
         userDataPicker.delegate = self
         userDataPicker.dataSource = self

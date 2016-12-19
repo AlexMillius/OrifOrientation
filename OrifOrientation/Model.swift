@@ -18,14 +18,14 @@ struct Assuré {
 }
 
 struct Profession {
-    let nom:String
-    let lien:NSURL
-    let ageMinimum:Int
-    let mptiNécessaire:Bool
-    let mGymnasialeNécessaire:Bool
-    let duréeFormation:Int //En année
-    let niveauFormationNécessaire:NivProf?
-    let expérienceNécessaire:Int? //En année
+    var duréeFormation:Int = 0 //En année
+    var mptiNécessaire:Bool = false
+    var mGymnasialeNécessaire:Bool = false
+    var niveauFormationNécessaire:NivProf? = .aucun
+    var expérienceNécessaire:Int? = 0 //En année
+    var ageMinimum:Int = 1
+    var nom:String = ""
+    var lien:NSURL = NSURL(fileURLWithPath: "")
 }
 
 enum NivProf:String {
