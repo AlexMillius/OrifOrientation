@@ -29,7 +29,7 @@ class DataViewController: UIViewController, UITableViewDelegate, UITableViewData
         // Do any additional setup after loading the view.
         
         //défini sur une échelle de 0 à 5 le niveau de formation minimum que l'user veut afficher
-        switch userSetting.niveauProfAutorise {
+        switch userSetting.nivFormationMinimumAffichée {
         case .scolarité: niveauMinAffichageFormation = 0
         case .afp: niveauMinAffichageFormation = 1
         case .cfc: niveauMinAffichageFormation = 2
@@ -168,23 +168,23 @@ class DataViewController: UIViewController, UITableViewDelegate, UITableViewData
                         
                         switch nivForm{
                         case "AFP":
-                            if self.niveauMinAffichageFormation >= 1 {
+                            if self.niveauMinAffichageFormation < 2 {
                                 castDataFromFormation(professions: &afps, rawProfessionsData: formations as AnyObject)
                             }
                         case "CFC":
-                            if self.niveauMinAffichageFormation >= 2 {
+                            if self.niveauMinAffichageFormation < 3 {
                                 castDataFromFormation(professions: &cfcs, rawProfessionsData: formations as AnyObject)
                             }
                         case "Brevet":
-                            if self.niveauMinAffichageFormation >= 3 {
+                            if self.niveauMinAffichageFormation < 4 {
                                 castDataFromFormation(professions: &brevets, rawProfessionsData: formations as AnyObject)
                             }
                         case "Diplome":
-                            if self.niveauMinAffichageFormation >= 4 {
+                            if self.niveauMinAffichageFormation < 5 {
                                 castDataFromFormation(professions: &diplômes, rawProfessionsData: formations as AnyObject)
                             }
                         case "Maitrise":
-                            if self.niveauMinAffichageFormation >= 5 {
+                            if self.niveauMinAffichageFormation < 6 {
                                 castDataFromFormation(professions: &maitrises, rawProfessionsData: formations as AnyObject)
                             }
                         default: castDataFromFormation(professions: &sansTitreDeFormations, rawProfessionsData: formations as AnyObject)
