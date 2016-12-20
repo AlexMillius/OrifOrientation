@@ -22,10 +22,21 @@ class DataViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     var userSetting:Assuré = Assuré()
     var filteredProfessions = [Profession]()
+    var niveauMinAffichageFormation = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //défini sur une échelle de 0 à 5 le niveau de formation minimum que l'user veut afficher
+        switch userSetting.niveauProfAutorise {
+        case .scolarité: niveauMinAffichageFormation = 0
+        case .afp: niveauMinAffichageFormation = 1
+        case .cfc: niveauMinAffichageFormation = 2
+        case .brevet: niveauMinAffichageFormation = 3
+        case .diplôme: niveauMinAffichageFormation = 4
+        case .maitrise: niveauMinAffichageFormation = 5
+        }
         
         filteredProfessions = []
         loadProfessions(settings: userSetting)
@@ -156,11 +167,26 @@ class DataViewController: UIViewController, UITableViewDelegate, UITableViewData
                         let nivForm = nomNiveauFormation as! String
                         
                         switch nivForm{
-                        case "AFP": castDataFromFormation(professions: &afps, rawProfessionsData: formations as AnyObject)
-                        case "CFC": castDataFromFormation(professions: &cfcs, rawProfessionsData: formations as AnyObject)
-                        case "Brevet": castDataFromFormation(professions: &brevets, rawProfessionsData: formations as AnyObject)
-                        case "Diplome": castDataFromFormation(professions: &diplômes, rawProfessionsData: formations as AnyObject)
-                        case "Maitrise": castDataFromFormation(professions: &maitrises, rawProfessionsData: formations as AnyObject)
+                        case "AFP":
+                            if self.niveauMinAffichageFormation <= 1 {
+                                castDataFromFormation(professions: &afps, rawProfessionsData: formations as AnyObject)
+                            }
+                        case "CFC":
+                            if self.niveauMinAffichageFormation <= 2 {
+                                castDataFromFormation(professions: &cfcs, rawProfessionsData: formations as AnyObject)
+                            }
+                        case "Brevet":
+                            if self.niveauMinAffichageFormation <= 3 {
+                                castDataFromFormation(professions: &brevets, rawProfessionsData: formations as AnyObject)
+                            }
+                        case "Diplome":
+                            if self.niveauMinAffichageFormation <= 4 {
+                                castDataFromFormation(professions: &diplômes, rawProfessionsData: formations as AnyObject)
+                            }
+                        case "Maitrise":
+                            if self.niveauMinAffichageFormation <= 5 {
+                                castDataFromFormation(professions: &maitrises, rawProfessionsData: formations as AnyObject)
+                            }
                         default: castDataFromFormation(professions: &sansTitreDeFormations, rawProfessionsData: formations as AnyObject)
                         }
                     }
@@ -183,6 +209,7 @@ class DataViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         // Set cell properties
         cell.textLabel?.text = filteredProfessions[indexPath.row].nom
+        cell.textLabel?.adjustsFontSizeToFitWidth = true
         
         // Return the cell
         return cell

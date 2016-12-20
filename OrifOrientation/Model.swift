@@ -15,6 +15,7 @@ struct Assuré {
     var niveauProfInit:NivProf = NivProf.scolarité
     var niveauProfAutorise:NivProf = NivProf.scolarité
     var duréeMaxFormation:Int = 3 //En années
+    var nivFormationMinimumAffichée = NivProf.scolarité
 }
 
 struct Profession {
