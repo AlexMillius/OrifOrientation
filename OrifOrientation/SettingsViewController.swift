@@ -30,11 +30,6 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //Test de connection à la base de donnée
-        /*var ref: FIRDatabaseReference!
-        ref = FIRDatabase.database().reference()
-        ref.child("professions").child("testChild").setValue(["username": "testChablabla"])*/
-        
         userDataPicker.delegate = self
         userDataPicker.dataSource = self
     }

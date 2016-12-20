@@ -168,23 +168,23 @@ class DataViewController: UIViewController, UITableViewDelegate, UITableViewData
                         
                         switch nivForm{
                         case "AFP":
-                            if self.niveauMinAffichageFormation <= 1 {
+                            if self.niveauMinAffichageFormation >= 1 {
                                 castDataFromFormation(professions: &afps, rawProfessionsData: formations as AnyObject)
                             }
                         case "CFC":
-                            if self.niveauMinAffichageFormation <= 2 {
+                            if self.niveauMinAffichageFormation >= 2 {
                                 castDataFromFormation(professions: &cfcs, rawProfessionsData: formations as AnyObject)
                             }
                         case "Brevet":
-                            if self.niveauMinAffichageFormation <= 3 {
+                            if self.niveauMinAffichageFormation >= 3 {
                                 castDataFromFormation(professions: &brevets, rawProfessionsData: formations as AnyObject)
                             }
                         case "Diplome":
-                            if self.niveauMinAffichageFormation <= 4 {
+                            if self.niveauMinAffichageFormation >= 4 {
                                 castDataFromFormation(professions: &diplômes, rawProfessionsData: formations as AnyObject)
                             }
                         case "Maitrise":
-                            if self.niveauMinAffichageFormation <= 5 {
+                            if self.niveauMinAffichageFormation >= 5 {
                                 castDataFromFormation(professions: &maitrises, rawProfessionsData: formations as AnyObject)
                             }
                         default: castDataFromFormation(professions: &sansTitreDeFormations, rawProfessionsData: formations as AnyObject)
