@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-class DataViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class DataViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIWebViewDelegate {
     
     @IBOutlet weak var professionTblView: UITableView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
@@ -18,8 +18,8 @@ class DataViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet weak var cacheView: UIView!
     @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var retourBtnCacheWebView: UIButton!
-    
     @IBOutlet weak var activityIndicatorWebView: UIActivityIndicatorView!
+    
     var userSetting:Assuré = Assuré()
     var filteredProfessions = [Profession]()
 
@@ -198,10 +198,16 @@ class DataViewController: UIViewController, UITableViewDelegate, UITableViewData
         webView.loadRequest(URLRequest(url: url))*/
     }
     
+    //MARK: UI Action
     @IBAction func retourCacheViewTapped(_ sender: Any) {
         cacheView.isHidden = true
+        activityIndicatorWebView.startAnimating()
     }
     
+    //MARK: webView Delegate
+    func webViewDidFinishLoad(_ webView: UIWebView) {
+        activityIndicatorWebView.stopAnimating()
+    }
 
     /*
     // MARK: - Navigation
