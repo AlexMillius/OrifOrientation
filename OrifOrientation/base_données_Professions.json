@@ -1,0 +1,2203 @@
+{
+  "Formations" : {
+    "AFP" : [ {
+      "nom" : "Agent de propreté AFP",
+	   "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+	   "mpti" : false,
+	   "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=12&id=1464"
+    },{
+      "nom" : "Agent d'entretien en assainissement AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=12&id=1554"
+    },{
+      "nom" : "Agent en produits textiles AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=12&id=1576"
+    },{
+      "nom" : "Agropraticien AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=24&id=1428"
+    },{
+      "nom" : "Aide en informatique AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=24&id=1480"
+    },{
+      "nom" : "Aide en soins et accompagnement AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=24&id=1467"
+    },{
+      "nom" : "Aide en technique du bâtiment AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=24&id=1369"
+    },{
+      "nom" : "Aide-carreleur AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=24&id=1473"
+    },{
+      "nom" : "Aide-constructeur métallique AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=24&id=1353"
+    },{
+      "nom" : "Aide-maçon AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=24&id=1471"
+    },{
+      "nom" : "Aide-menuisier AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=24&id=1312"
+    },{
+      "nom" : "Aide-monteur frigoriste AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=24&id=1483"
+    },{
+      "nom" : "Aide-mouleur AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=24&id=1444"
+    },{
+      "nom" : "Aide-peintre AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=24&id=1577"
+    },{
+      "nom" : "Aide-plâtrier AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=36&id=1578"
+    },{
+      "nom" : "Aide-polybâtisseur AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=36&id=1396"
+    },{
+      "nom" : "Assistant de bureau AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=36&id=1145"
+    },{
+      "nom" : "Assistant du commerce de détail AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=36&id=269"
+    },{
+      "nom" : "Assistant en boucherie et charcuterie AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=36&id=1376"
+    },{
+      "nom" : "Assistant en maintenance d'automobiles AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=36&id=1343"
+    },{
+      "nom" : "Assistant en médias imprimés AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=48&id=1484"
+    },{
+      "nom" : "Assistant en traitement de surface AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=48&id=276"
+    },{
+      "nom" : "Assistant vernisseur AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=48&id=1519"
+    },{
+      "nom" : "Assistant-constructeur de fondations AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=48&id=1424"
+    },{
+      "nom" : "Assistant-constructeur de routes AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=48&id=1370"
+    },{
+      "nom" : "Assistant-constructeur de sols industriels et de chapes AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=48&id=1419"
+    },{
+      "nom" : "Assistant-constructeur de voies ferrées AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=60&id=1566"
+    },{
+      "nom" : "Boulanger-pâtissier-confiseur AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=60&id=1475"
+    },{
+      "nom" : "Coiffeur AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=72&id=1496"
+    },{
+      "nom" : "Conducteur de véhicules légers AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":17,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=72&id=1573"
+    },{
+      "nom" : "Confectionneur AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=72&id=1564"
+    },{
+      "nom" : "Couturier d'intérieur AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=84&id=1462"
+    },{
+      "nom" : "Employé de remontées mécaniques AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=108&id=1320"
+    },{
+      "nom" : "Employé d'exploitation AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=108&id=1583"
+    },{
+      "nom" : "Employé en cuisine AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=108&id=1040"
+    },{
+      "nom" : "Employé en hôtellerie AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=120&id=1041"
+    },{
+      "nom" : "Employé en industrie laitière AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=120&id=1052"
+    },{
+      "nom" : "Employé en intendance AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=120&id=1315"
+    },{
+      "nom" : "Employé en restauration AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=120&id=1042"
+    },{
+      "nom" : "Fleuriste AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=120&id=1395"
+    },{
+      "nom" : "Gardien de chevaux AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=132&id=1416"
+    },{
+      "nom" : "Horticulteur AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=132&id=1494"
+    },{
+      "nom" : "Logisticien AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=144&id=1304"
+    },{
+      "nom" : "Logisticien AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=144&id=1304"
+    },{
+      "nom" : "Logisticien CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=144&id=943"
+    },{
+      "nom" : "Opérateur en horlogerie AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=180&id=789"
+    },{
+      "nom" : "Polisseur AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=192&id=231"
+    },{
+      "nom" : "Poseur de pierres AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=204&id=1417"
+    },{
+      "nom" : "Praticien des matières synthétiques AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=204&id=1430"
+    },{
+      "nom" : "Praticien en denrées alimentaires AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=204&id=1392"
+    },{
+      "nom" : "Praticien en mécanique AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=204&id=1390"
+    },{
+      "nom" : "Praticien en pneumatiques AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=204&id=1319"
+    },{
+      "nom" : "Praticien forestier AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=204&id=1518"
+    },{
+      "nom" : "Praticien sur bois AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=204&id=1474"
+    },{
+      "nom" : "Praticien sur bois AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=204&id=1474"
+    },{
+      "nom" : "Réparateur de chaussures AFP",
+      "dureeForm" : 2,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=1481"
+    }],
+    "CFC" : [ {
+      "nom" : "Acousticien CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=12&id=1612"
+      
+    }, {
+      "nom" : "Agent de propreté CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=12&id=204"
+    }, {
+      "nom" : "Agent de transports publics CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=12&id=1581"
+    }, {
+      "nom" : "Agent de voyages CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=12&id=510"
+    }, {
+      "nom" : "Agent d'entretien de bateaux CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=12&id=962"
+    }, {
+      "nom" : "Agent d'exploitation CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=12&id=1075"
+    }, {
+      "nom" : "Agent en information documentaire CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=12&id=17"
+    }, {
+      "nom" : "Agent relation client CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=12&id=1476"
+    }, {
+      "nom" : "Agent technique des matières synthétiques CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=12&id=7"
+    }, {
+      "nom" : "Agriculteur CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=24&id=8"
+    },{
+      "nom" : "Arboriculteur CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=36&id=11"
+    },{
+      "nom" : "Armurier CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=36&id=12"
+    },{
+      "nom" : "Artisan du bois CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=36&id=1433"
+    },{
+      "nom" : "Artisan du cuir et du textile CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=36&id=1495"
+    },{
+      "nom" : "Assistant dentaire CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=36&id=16"
+    },{
+      "nom" : "Assistant en médecine vétérinaire CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=36&id=18"
+    },{
+      "nom" : "Assistant en pharmacie CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=48&id=19"
+    },{
+      "nom" : "Assistant en podologie CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=48&id=1159"
+    },{
+      "nom" : "Assistant en promotion de l'activité physique et de la santé CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=48&id=1502"
+    },{
+      "nom" : "Assistant en soins et santé communautaire CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=48&id=947"
+    },{
+      "nom" : "Assistant médical CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=48&id=22"
+    },{
+      "nom" : "Assistant socio-éducatif CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=48&id=1051"
+    },{
+      "nom" : "Automaticien CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://orientation.ch/dyn/show/1900?id=23"
+    },{
+      "nom" : "Aviculteur CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=60&id=24"
+    },{
+      "nom" : "Bijoutier CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=60&id=27"
+    },{
+      "nom" : "Bottier-orthopédiste CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=60&id=548"
+    },{
+      "nom" : "Boucher-charcutier CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=60&id=1373"
+    },{
+      "nom" : "Boulanger-pâtissier-confiseur CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=60&id=1465"
+    },{
+      "nom" : "Calorifugeur-tôlier CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=60&id=33"
+    },{
+      "nom" : "Carreleur CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=60&id=34"
+    },{
+      "nom" : "Carrossier-peintre CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=60&id=215"
+    },{
+      "nom" : "Carrossier-tôlier CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=60&id=265"
+    },{
+      "nom" : "Caviste CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=72&id=37"
+    },{
+      "nom" : "Céramiste CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=72&id=38"
+    },{
+      "nom" : "Céramiste industriel CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=72&id=951"
+    },{
+      "nom" : "Charpentier CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=72&id=39"
+    },{
+      "nom" : "Coiffeur CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=72&id=44"
+    },{
+      "nom" : "Conducteur de véhicules lourds CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":16,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=72&id=47"
+    },{
+      "nom" : "Constructeur d'appareils industriels CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=72&id=52"
+    },{
+      "nom" : "Constructeur de bateaux CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=72&id=54"
+    },{
+      "nom" : "Constructeur de fondations CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=72&id=903"
+    },{
+      "nom" : "Constructeur de routes CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=84&id=906"
+    },{
+      "nom" : "Constructeur de sols industriels et de chapes CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=84&id=905"
+    },{
+      "nom" : "Constructeur de voies ferrées CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=84&id=295"
+    },{
+      "nom" : "Constructeur d'éléments en béton préfabriqués CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=84&id=42"
+    },{
+      "nom" : "Constructeur d'installations de ventilation CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=84&id=53"
+    },{
+      "nom" : "Constructeur métallique CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=84&id=57"
+    },{
+      "nom" : "Cordonnier CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=84&id=60"
+    },{
+      "nom" : "Courtepointier CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=84&id=61"
+    },{
+      "nom" : "Coutelier CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=84&id=62"
+    },{
+      "nom" : "Créateur de tissu CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=84&id=264"
+    },{
+      "nom" : "Créateur de vêtements CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=84&id=1038"
+    },{
+      "nom" : "Cuisinier CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=96&id=68"
+    },{
+      "nom" : "Cuisinier en diététique CFC",
+      "dureeForm" : 1,
+     "nivNecess" : "cfc",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=96&id=69"
+    },{
+      "nom" : "Danseur interprète CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=96&id=1432"
+    },{
+      "nom" : "Décorateur d'intérieurs CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=96&id=70"
+    },{
+      "nom" : "Dessinateur CFC: architecture",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=96&id=76"
+    },{
+      "nom" : "Dessinateur CFC: architecture d'intérieur",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=96&id=73"
+    },{
+      "nom" : "Dessinateur CFC: architecture paysagère",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=96&id=85"
+    },{
+      "nom" : "Dessinateur CFC: génie civil",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=96&id=78"
+    },{
+      "nom" : "Dessinateur CFC: planification du territoire",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=96&id=75"
+    },{
+      "nom" : "Dessinateur en construction microtechnique CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=96&id=80"
+    },{
+      "nom" : "Dessinateur-constructeur industriel CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=96&id=51"
+    },{
+      "nom" : "Dessinateur-constructeur sur métal CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=96&id=81"
+    },{
+      "nom" : "Doreur-encadreur CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=108&id=87"
+    },{
+      "nom" : "Droguiste CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=108&id=88"
+    },{
+      "nom" : "Ebéniste CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=108&id=282"
+    },{
+      "nom" : "Electricien de montage CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=108&id=90"
+    },{
+      "nom" : "Electricien de réseau CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=108&id=91"
+    },{
+      "nom" : "Electronicien CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=108&id=94"
+    },{
+      "nom" : "Electronicien en multimédia CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=108&id=297"
+    },{
+      "nom" : "Electroplaste CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=108&id=96"
+    },{
+      "nom" : "Employé de commerce CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=108&id=99"
+    },{
+      "nom" : "Facteur d'instruments de musique CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=120&id=1374"
+    },{
+      "nom" : "Esthéticien CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=120&id=110"
+    },{
+      "nom" : "Ferblantier CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=120&id=117"
+    },{
+      "nom" : "Fleuriste CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=120&id=119"
+    },{
+      "nom" : "Flexographe CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=120&id=925"
+    },{
+      "nom" : "Forestier-bûcheron CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=120&id=124"
+    },{
+      "nom" : "Gardien d'animaux CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=120&id=655"
+    },{
+      "nom" : "Garnisseur de meubles CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=132&id=133"
+    },{
+      "nom" : "Garnisseur de meubles CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=132&id=133"
+    },{
+      "nom" : "Géomaticien CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=132&id=84"
+    },{
+      "nom" : "Gestionnaire du commerce de détail CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=132&id=135"
+    },{
+      "nom" : "Gestionnaire en intendance CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=132&id=277"
+    },{
+      "nom" : "Graphiste CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=132&id=138"
+    },{
+      "nom" : "Graveur CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=132&id=139"
+    },{
+      "nom" : "Horloger CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=132&id=143"
+    },{
+      "nom" : "Horloger de production CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=132&id=142"
+    },{
+      "nom" : "Horticulteur CFC: floriculture",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=132&id=144"
+    },{
+      "nom" : "Horticulteur CFC: paysagisme",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=132&id=146"
+    },{
+      "nom" : "Horticulteur CFC: pépinière",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=144&id=912"
+    },{
+      "nom" : "Horticulteur CFC: plantes vivaces",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=144&id=145"
+    },{
+      "nom" : "Informaticien CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=144&id=152"
+    },{
+      "nom" : "Installateur en chauffage CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=144&id=196"
+    },{
+      "nom" : "Installateur sanitaire CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=144&id=198"
+    },{
+      "nom" : "Installateur-électricien CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=144&id=199"
+    },{
+      "nom" : "Interactive Media Designer CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=144&id=45"
+    },{
+      "nom" : "Laborantin CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=144&id=1375"
+    },{
+      "nom" : "Laborantin en physique CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=144&id=159"
+    },{
+      "nom" : "Libraire CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=144&id=164"
+    },{
+      "nom" : "Luthier CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=156&id=165"
+    },{
+      "nom" : "Maçon CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=156&id=926"
+    },{
+      "nom" : "Maquettiste d'architecture CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=156&id=169"
+    },{
+      "nom" : "Maraîcher CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=156&id=170"
+    },{
+      "nom" : "Marbrier CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=156&id=171"
+    },{
+      "nom" : "Marbrier du bâtiment CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=156&id=210"
+    },{
+      "nom" : "Maréchal-ferrant CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=156&id=172"
+    },{
+      "nom" : "Matelot de la navigation intérieure CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=156&id=174"
+    },{
+      "nom" : "Mécanicien d'appareils à moteur CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=156&id=175"
+    },{
+      "nom" : "Mécanicien de production CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=156&id=279"
+    },{
+      "nom" : "Mécanicien en cycles CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=156&id=976"
+    },{
+      "nom" : "Mécanicien en machines agricoles CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=156&id=179"
+    },{
+      "nom" : "Mécanicien en machines de chantier CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=168&id=180"
+    },{
+      "nom" : "Mécanicien en maintenance d'automobiles CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=168&id=1029"
+    },{
+      "nom" : "Mécanicien en motocycles CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=168&id=181"
+    },{
+      "nom" : "Mécanicien en motocycles de petite cylindrée et cycles CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=168&id=178"
+    },{
+      "nom" : "Mécatronicien d'automobiles CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=168&id=1028"
+    },{
+      "nom" : "Mécatronicien de remontées mécaniques CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=168&id=1311"
+    },{
+      "nom" : "Médiamaticien CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=168&id=184"
+    },{
+      "nom" : "Menuisier CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=168&id=186"
+    },{
+      "nom" : "Meunier CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=168&id=187"
+    },{
+      "nom" : "Micromécanicien CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=168&id=189"
+    },{
+      "nom" : "Monteur frigoriste CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=168&id=200"
+    },{
+      "nom" : "Monteur-automaticien CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=168&id=994"
+    },{
+      "nom" : "Mouleur CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=180&id=190"
+    },{
+      "nom" : "Mouleur de fonderie CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=180&id=202"
+    },{
+      "nom" : "Nettoyeur de textiles CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=180&id=203"
+    },{
+      "nom" : "Opérateur de machines automatisées CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=180&id=961"
+    },{
+      "nom" : "Opérateur de médias imprimés CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=180&id=238"
+    },{
+      "nom" : "Opérateur de sciage d'édifice CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=180&id=954"
+    },{
+      "nom" : "Opticien CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=180&id=206"
+    },{
+      "nom" : "Opticien en instruments de précision CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=180&id=207"
+    },{
+      "nom" : "Orthopédiste CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=180&id=1031"
+    },{
+      "nom" : "Papetier CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=180&id=212"
+    },{
+      "nom" : "Paveur CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=180&id=902"
+    },{
+      "nom" : "Peintre CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=192&id=216"
+    },{
+      "nom" : "Peintre en décors de théâtre CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=192&id=217"
+    },{
+      "nom" : "Peintre verrier CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=192&id=220"
+    },{
+      "nom" : "Photographe CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=192&id=223"
+    },{
+      "nom" : "Planificateur-électricien CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=192&id=82"
+    },{
+      "nom" : "Plâtrier constructeur à sec CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=192&id=226"
+    },{
+      "nom" : "Poêlier-fumiste CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=192&id=229"
+    },{
+      "nom" : "Polybâtisseur CFC: construction de façades",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=192&id=972"
+    },{
+      "nom" : "Polybâtisseur CFC: construction d'échafaudages",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=192&id=975"
+    },{
+      "nom" : "Polybâtisseur CFC: couverture",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=192&id=66"
+    },{
+      "nom" : "Polybâtisseur CFC: étanchéité",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=192&id=111"
+    },{
+      "nom" : "Polybâtisseur CFC: systèmes de protection solaire",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=204&id=255"
+    },{
+      "nom" : "Polydesigner 3D CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=204&id=71"
+    },{
+      "nom" : "Polygraphe CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=204&id=232"
+    },{
+      "nom" : "Polymécanicien CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=204&id=233"
+    },{
+      "nom" : "Poseur de sol - parquet CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=204&id=1022"
+    },{
+      "nom" : "Professionnel du cheval CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":16,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=216&id=1405"
+    },{
+      "nom" : "Projeteur en technique du bâtiment chauffage CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=216&id=296"
+    },{
+      "nom" : "Projeteur en technique du bâtiment sanitaire CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=216&id=907"
+    },{
+      "nom" : "Projeteur en technique du bâtiment ventilation CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=216&id=909"
+    },{
+      "nom" : "Projeteur frigoriste CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=216&id=908"
+    },{
+      "nom" : "Ramoneur CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=216&id=237"
+    },{
+      "nom" : "Réalisateur publicitaire CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=216&id=218"
+    },{
+      "nom" : "Réceptionniste d'hôtel CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=216&id=844"
+    },{
+      "nom" : "Recycleur CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=910"
+    },{
+      "nom" : "Scieur de l'industrie du bois CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=244"
+    },{
+      "nom" : "Sculpteur sur bois CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=245"
+    },{
+      "nom" : "Sculpteur sur pierre CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=246"
+    },{
+      "nom" : "Serrurier sur véhicules CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=251"
+    },{
+      "nom" : "Spécialiste en hôtellerie CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=14"
+    },{
+      "nom" : "Spécialiste en hôtellerie CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=14"
+    },{
+      "nom" : "Spécialiste en photographie CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=105"
+    },{
+      "nom" : "Spécialiste en restauration CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=253"
+    },{
+      "nom" : "Spécialiste en restauration de système CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=1517"
+    },{
+      "nom" : "Tailleur de pierre CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=256"
+    },{
+      "nom" : "Technicien-dentiste CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=260"
+    },{
+      "nom" : "Techniscéniste CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":18,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=1478"
+    },{
+      "nom" : "Technologue de fonderie CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=4"
+    },{
+      "nom" : "Technologue du lait CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=130"
+    },{
+      "nom" : "Technologue en assainissement CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=1553"
+    },{
+      "nom" : "Technologue en denrées alimentaires CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=262"
+    },{
+      "nom" : "Technologue en emballage CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=261"
+    },{
+      "nom" : "Technologue en impression CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=148"
+    },{
+      "nom" : "Technologue en production chimique et pharmaceutique CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=205"
+    },{
+      "nom" : "Technologue en textile CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=1354"
+    },{
+      "nom" : "Télématicien CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=281"
+    },{
+      "nom" : "Termineur en habillage horloger CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=263"
+    },{
+      "nom" : "Tonnelier CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=266"
+    },{
+      "nom" : "Vannier créateur CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=268"
+    },{
+      "nom" : "Vernisseur industriel CFC",
+      "dureeForm" : 3,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=270"
+    },{
+      "nom" : "Viticulteur CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=273"
+    },{
+      "nom" : "Vitrier CFC",
+      "dureeForm" : 4,
+     "nivNecess" : "scolarité",
+     "mpti" : false,
+     "mgym" : false,
+      "ageMin":1,
+      "expNec":0,
+      "lien" : "https://www.orientation.ch/dyn/show/1900?lang=fr&idx=240&id=274"
+    }]
+  }
+}

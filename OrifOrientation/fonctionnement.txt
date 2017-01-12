@@ -1,0 +1,34 @@
+
+
+L’application commence dans le fichier SettingsViewController.swift
+Cette page enregistre les données des différents switch et pickerView dans la variable userSetting.
+
+La variable userSetting est de type Assuré.
+le type assuré est défini dans le fichier Model, il sagit d’une struct
+la struct Assuré utilise les données des différents niveau de profession présent dans la struct Profession, également disponible dans le fichier Model.
+le niveau de profession (NivProf) est un enum utilisé dans la struct Assuré pour définir le niveau de profession.
+
+d’une fois que l’utilisateur a sélectionné les paramètres, une pression sur le bouton « Lancer la recherche » déclenche un segue vers une deuxième vue -> DataViewController.
+Afin de passer les donnée de l’utilisateur enregistrée dans la variable userSetting, la fonction prepare(for segue:) est utilisée pour passer la donnée dans le userSetting de la destinationViewController-> DataViewController.
+
+Dès le chargement de la vue DataViewController, la fonction viewDidLoad appel la fonction loadProfessions en passant la variable userSetting comme paramètre.
+
+la fonction loadProfessions est le coeur de l’application. Je n’ai pas pris la peine de la mettre dans le modèle, je ne respecte donc pas le principe du MVC (honte à moi).
+
+La base de donnée est fichier json présent sur firebase. J’ai préalablement configuré l’app pour la jumelé avec firebase. !!! j’insiste sur ce point, bien que j’ai fourni le fichier.json dans l’appli, le fichier base_données_Professions.json n’est pas utilisé, c’est bien le fichier présent sur firebase seul qui est appelé.
+
+la closure « ref.child("Formations").observeSingleEvent(of: .value, with: { (snapshot) in » est exécutée pour aller chercher sur la base de données firebase les données.
+
+les données sont extraite du NSDictionary puis passée dans un switch pour savoir si il est nécessaire de les extraire en fonction de l’affichage sélectionné par l’utilisateur. Si l’utilisateur ne souhaite pas afficher les professions en dessous du niveau CFC, les données AFP ne seront pas traitée.
+
+Ce switch nivForm appelle en fonction des cas la fonction imbriquée castDataFromFormation.
+
+Les données sont ensuite extraite et formatée dans cette fonction castDataFromFormation.
+
+pour terminer, filterFormations est appelé pour filtré les professions en fonction des paramètres de l’utilisateur.
+
+la function loop à travers chaque profession présente dans la base de donnée et la compare avec les paramètres de l’utilisateur présent dans userSetting. les différentes étapes sont clairement expliquée via des commentaires.
+
+chaque fois qu’une profession correspond aux critères de userSetting, elle est ajoutée dans l’array filteredProfessions.
+
+d’une fois que toutes les formations sont filtrées, DispatchQue.main.async recharge la tableView pour afficher les données.
